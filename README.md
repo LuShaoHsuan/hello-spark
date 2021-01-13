@@ -35,7 +35,10 @@ docker exec -it spark bash
     http://localhost:8081
   
     http://localhost:8082
-
+- remove all container and volume
+```shell
+docker-compose down -v
+```
 ### What's Next
 > Submit your spark application
 
