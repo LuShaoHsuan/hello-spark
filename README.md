@@ -1,5 +1,5 @@
 # hello-spark
-> test spark feature
+> create spark environment to test feature
 
 ## Prerequisites
 - Docker

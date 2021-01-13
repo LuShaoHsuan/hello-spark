@@ -4,8 +4,6 @@ services:
   notebook:
     image: jupyter/all-spark-notebook
     container_name: notebook
-    networks:
-      spark-cluster:
     ports:
       - '8888:8888'
       - '4040:4040'
